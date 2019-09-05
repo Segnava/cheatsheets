@@ -1,6 +1,6 @@
 ---
 title: MySQL
-updated: 2018-12-25
+updated: 2019-09-05
 layout: 2017/sheet
 category: Databases
 ---
@@ -10,8 +10,10 @@ category: Databases
 ```sql
 CREATE DATABASE dbNameYouWant
 CREATE DATABASE dbNameYouWant CHARACTER SET utf8
+CREATE DATABASE dbNameYouWant CHARACTER SET utf8 COLLATE utf8mb_unicode_ci
 DROP DATABASE dbNameYouWant
 ALTER DATABASE dbNameYouWant CHARACTER SET utf8
+ALTER DATABASE dbNameYouWant CHARACTER SET utf8 COLLATE utf8mb_unicode_ci
 ```
 
 ### Backup Database to SQL File
